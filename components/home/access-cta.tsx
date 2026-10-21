@@ -32,7 +32,7 @@ export function AccessCta() {
                 place.
               </p>
               <Link
-                href="https://tally.so/r/1WA71O"
+                href="https://tally.so/r/e5qEMk"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={cn(buttonVariants({ size: 'lg' }), 'mt-8 h-12 gap-2 px-6 text-base')}
