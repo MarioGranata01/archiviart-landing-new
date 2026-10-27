@@ -1,0 +1,194 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "team": "Team",
+    "requestAccess": "Request access"
+  },
+  "cta": {
+    "badge": "Private preview · Limited seats",
+    "quote": "“More than file management — a bridge between the analog past of art and its digital future.”",
+    "title": "Bring your collection into its digital future.",
+    "description": "We're opening ARCHIVIART to a small circle of museums, archives, foundations, curators and researchers. Tell us about your heritage and we'll reserve your place.",
+    "button": "Request early access"
+  },
+  "footer": {
+    "description": "Digitizing, preserving and sharing artistic and documentary heritage. Built in Italy for museums, archives, curators and researchers everywhere.",
+    "catalog": "Cat. no. AV-0000 — All works catalogued"
+  },
+  "hero": {
+    "badge": "Now in private preview for cultural institutions",
+    "titlePrefix": "The analog past of art, given a",
+    "titleHighlight": "digital future.",
+    "description": "ARCHIVIART digitizes, preserves and organizes fragile artistic and documentary heritage — historical archives, artworks and paper catalogs — into a secure, searchable archive built to last for decades.",
+    "ctaButton": "Request early access",
+    "secondaryButton": "Read our manifesto",
+    "artworkTitle": "Untitled (Ochre Field)",
+    "artworkDetails": "Oil on linen · 1987",
+    "status": "Digitized"
+  },
+  "marqueeTerms": [
+    "Historical archives",
+    "Handwritten letters",
+    "Artists’ diaries",
+    "Vintage photographs",
+    "Paper catalogs",
+    "Inventory registers",
+    "Provenance",
+    "Sketches",
+    "Collections",
+    "Exhibition loans"
+  ],
+  "features": {
+    "sectionLabel": "The project",
+    "titlePrefix": "Heritage is fragile.",
+    "titleHighlight": "Memory",
+    "titleSuffix": "shouldn't be.",
+    "paragraph1": "Art history still lives in dusty folders, artists' diaries, handwritten letters, vintage photographs and inventory registers — material that deteriorates with time, environment and accident, and that is nearly impossible to search.",
+    "paragraph2": "ARCHIVIART transforms this vast, scattered archive into a living, secure and interconnected digital ecosystem.",
+    "pillars": [
+      {
+        "index": "I",
+        "title": "Digitize and preserve",
+        "body": "Transform fragile paper-based and historical documents into a secure, long-lasting digital archive — structured preservation designed so files never become corrupted or obsolete."
+      },
+      {
+        "index": "II",
+        "title": "Organize and index",
+        "body": "Locate complex information in seconds. Optical character recognition and artificial intelligence turn handwritten letters and typewritten pages into fully searchable text."
+      },
+      {
+        "index": "III",
+        "title": "Promote cultural value",
+        "body": "Enable museums, archives and cultural organizations to manage and share their artistic heritage in an organized, accessible and protected way."
+      }
+    ]
+  },
+  "audience": {
+    "sectionLabel": "Who it's for",
+    "titlePrefix": "Built for everyone who",
+    "titleHighlight": "keeps art alive.",
+    "items": [
+      {
+        "title": "Art historians & researchers",
+        "body": "Consult primary sources, letters and sketches instantly — without traveling to archives around the world."
+      },
+      {
+        "title": "Museum & gallery curators",
+        "body": "Catalog artworks, track their movements and manage loans for exhibitions from a single place."
+      },
+      {
+        "title": "Archivists & cultural institutions",
+        "body": "Oversee compliant preservation with powerful tools for organizing complex document workflows."
+      },
+      {
+        "title": "The public & enthusiasts",
+        "body": "Explore digitized collections through an intuitive, multimedia-rich interface built for discovery."
+      }
+    ]
+  },
+  "recordPreview": {
+    "sectionLabel": "Inside the archive",
+    "titlePrefix": "From paper to",
+    "titleHighlight": "searchable",
+    "titleSuffix": "record.",
+    "description": "Upload an old handwritten letter or typewritten document and ARCHIVIART extracts its text, enriches it with cultural metadata and protects it behind secure, centralized authentication.",
+    "capabilities": [
+      {
+        "title": "Digital preservation",
+        "body": "Structured, long-term preservation — far beyond simply saving files."
+      },
+      {
+        "title": "OCR & intelligent indexing",
+        "body": "Search an artist’s name and retrieve every letter that mentions it."
+      },
+      {
+        "title": "Art-specific metadata",
+        "body": "Author, dating, technique, provenance, location and conservation status."
+      },
+      {
+        "title": "Tiered access control",
+        "body": "Researchers, curators and administrators each see exactly what they should."
+      }
+    ],
+    "recordHeader": "Record · AV-1912-117",
+    "recordTitle": "Letter to a Gallerist",
+    "metadata": [
+      ["Author", "Unknown (attrib. Ferrara school)"],
+      ["Dating", "c. 1912"],
+      ["Technique", "Ink on laid paper"],
+      ["Provenance", "Private collection, Milan"],
+      ["Location", "Drawer 14 · Folder C"],
+      ["Conservation", "Fair — foxing on margins"]
+    ],
+    "ocrLabel": "OCR extract",
+    "ocrQuote": "“...the canvases will arrive in Venice before the opening. I trust you with them as I would with my own memory...”",
+    "ocrConfidence": "98% confidence · 3 linked documents"
+  },
+  "aboutIntro": {
+    "titlePrefix": "A bridge between art's past and its",
+    "titleHighlight": "digital future.",
+    "description": "ARCHIVIART exists to breathe new life into culture while ensuring its preservation — so no letter, sketch or catalog is ever lost to time."
+  },
+  "story": {
+      "sectionLabel": "Our mission",
+      "title": "Who we are",
+      "p1": "We are a small team of art lovers, designers and engineers based in Italy — a country where nearly every street is an archive. ARCHIVIART was created to address a major challenge: the fragility, fragmentation and difficult accessibility of analog artistic and documentary heritage.",
+      "riskTitle": "The risk",
+      "riskBody": "The physical loss of heritage due to time, environmental factors or accidental events — compounded by the practical difficulty of locating a single document buried within decades of paper records.",
+      "p2": "Our solution is to transform this vast, scattered archive into a living, secure and interconnected digital ecosystem — safeguarding historical memory while making it accessible for use today.",
+      "figcaption": "Fig. 1 — Decades of heritage, one drawer at a time"
+    },
+    "goals": {
+      "sectionLabel": "Our goals",
+      "titlePrefix": "What we are",
+      "titleHighlight": "building toward.",
+      "items": [
+        {
+          "title": "Digitize and preserve",
+          "body": "Transform fragile paper-based and historical documents into a secure, long-lasting digital archive designed to remain intact and readable for decades."
+        },
+        {
+          "title": "Organize and index",
+          "body": "Simplify the search for complex information through advanced search tools, optical character recognition (OCR) and artificial intelligence."
+        },
+        {
+          "title": "Promote cultural value",
+          "body": "Enable institutions, cultural organizations, museums and archives to manage and share their artistic heritage in an organized, accessible and protected manner."
+        }
+      ]
+    },
+    "teamIntro": {
+    "titlePrefix": "Three founders, one",
+    "titleHighlight": "collection.",
+    "description": "A curator’s instinct, an engineer’s rigor and a designer’s eye — catalogued together under one accession number."
+  },
+  "team": {
+    "members": [
+      {
+        "id": "AV-M-01",
+        "name": "Rodolfo",
+        "role": "Curator & Co-founder",
+        "bio": "Expert in cultural heritage and historical archive management, dedicated to preserving the authenticity of every document.",
+        "focus": ["Historical archives", "Cultural heritage", "Provenance"],
+        "quote": "Art's memory deserves the exact same care with which it was created."
+      },
+      {
+        "id": "AV-M-02",
+        "name": "Mario",
+        "role": "Engineer & Co-founder",
+        "bio": "Specialized in scalable software architectures and secure systems for data management and indexing.",
+        "focus": ["Systems engineering", "Security", "OCR & AI"],
+        "quote": "Robust code is history's most reliable digital custodian."
+      },
+      {
+        "id": "AV-M-03",
+        "name": "Rino",
+        "role": "Designer & Co-founder",
+        "bio": "Curator of user experience and visual identity, focused on clarity and effortless accessibility.",
+        "focus": ["Interface design", "UX/UI", "Visual identity"],
+        "quote": "Great design steps aside to let the beauty of the archive shine through."
+      }
+    ]
+  }
+} 

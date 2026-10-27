@@ -1,17 +1,21 @@
-const TERMS = [
-  'Historical archives',
-  'Handwritten letters',
-  'Artists’ diaries',
-  'Vintage photographs',
-  'Paper catalogs',
-  'Inventory registers',
-  'Provenance',
-  'Sketches',
-  'Collections',
-  'Exhibition loans',
-]
+interface MarqueeProps {
+  lang: 'it' | 'en'
+  dict: any
+}
 
-export function Marquee() {
+export function Marquee({ lang, dict }: MarqueeProps) {
+  const TERMS: string[] = dict?.marqueeTerms ?? [
+    'Historical archives',
+    'Handwritten letters',
+    'Artists’ diaries',
+    'Vintage photographs',
+    'Paper catalogs',
+    'Inventory registers',
+    'Provenance',
+    'Sketches',
+    'Collections',
+    'Exhibition loans',
+  ]
   return (
     <div className="overflow-hidden border-b border-border bg-primary py-4 text-primary-foreground">
       <div className="animate-marquee flex w-max gap-10" aria-hidden="true">

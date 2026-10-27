@@ -1,37 +1,26 @@
 import { SectionLabel } from '@/components/section-label'
 
-const AUDIENCES = [
-  {
-    title: 'Art historians & researchers',
-    body: 'Consult primary sources, letters and sketches instantly — without traveling to archives around the world.',
-  },
-  {
-    title: 'Museum & gallery curators',
-    body: 'Catalog artworks, track their movements and manage loans for exhibitions from a single place.',
-  },
-  {
-    title: 'Archivists & cultural institutions',
-    body: 'Oversee compliant preservation with powerful tools for organizing complex document workflows.',
-  },
-  {
-    title: 'The public & enthusiasts',
-    body: 'Explore digitized collections through an intuitive, multimedia-rich interface built for discovery.',
-  },
-]
+interface AudienceProps {
+  lang: 'it' | 'en'
+  dict: any
+}
 
-export function Audience() {
+export function Audience({ lang, dict }: AudienceProps) {
+  const t = dict?.audience ?? {}
+  const audiences = t.items ?? []
+
   return (
     <section className="border-b border-border">
       <div className="mx-auto max-w-7xl px-6 py-24 lg:py-32">
         <div className="max-w-2xl">
-          <SectionLabel index="02">Who it&apos;s for</SectionLabel>
+          <SectionLabel index="02">{t.sectionLabel}</SectionLabel>
           <h2 className="mt-6 font-serif text-5xl leading-[1.05] tracking-tight text-balance lg:text-6xl">
-            Built for everyone who <em className="text-primary">keeps art alive.</em>
+            {t.titlePrefix} <em className="text-primary">{t.titleHighlight}</em>
           </h2>
         </div>
 
         <ul className="mt-16 flex flex-col">
-          {AUDIENCES.map((audience) => (
+          {audiences.map((audience: any) => (
             <li
               key={audience.title}
               className="group grid gap-4 border-t border-border py-8 last:border-b md:grid-cols-12 md:items-baseline"

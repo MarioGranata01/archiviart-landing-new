@@ -1,7 +1,28 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-export function SiteFooter() {
+interface SiteFooterProps {
+  lang: string
+  dict: {
+    nav?: {
+      home: string
+      about: string
+      team: string
+    }
+    footer?: {
+      description?: string
+      catalogued?: string
+    }
+  }
+}
+
+export function SiteFooter({ lang, dict }: SiteFooterProps) {
+  const tNav = dict?.nav ?? {
+    home: 'Home',
+    about: 'About',
+    team: 'Team',
+  }
+  const tFooter = dict?.footer ?? {}
   return (
     <footer className="border-t border-border">
       <div className="mx-auto flex max-w-7xl flex-col gap-10 px-6 py-14 md:flex-row md:items-end md:justify-between">
@@ -23,8 +44,7 @@ export function SiteFooter() {
           />
 
           <p className="max-w-sm text-sm leading-relaxed text-muted-foreground">
-            Digitizing, preserving and sharing artistic and documentary heritage. Built in Italy
-            for museums, archives, curators and researchers everywhere.
+            {tFooter.description}
           </p>
         </div>
 
@@ -80,22 +100,23 @@ export function SiteFooter() {
           </div>
 
           <nav aria-label="Footer" className="flex gap-8 text-sm text-muted-foreground">
-            <Link href="/" className="hover:text-foreground">
-              Home
+            <Link href= {`/${lang}`} className="hover:text-foreground">
+              {tNav.home}
             </Link>
-            <Link href="/about" className="hover:text-foreground">
-              About
+            <Link href={`/${lang}/about`} className="hover:text-foreground">
+              {tNav.about}
             </Link>
-            <Link href="/team" className="hover:text-foreground">
-              Team
+            <Link href={`/${lang}/team`} className="hover:text-foreground">
+              {tNav.team}
             </Link>
           </nav>
         </div>
       </div>
+
       <div className="border-t border-border">
         <div className="mx-auto flex max-w-7xl flex-col justify-between gap-2 px-6 py-5 font-mono text-[11px] uppercase tracking-widest text-muted-foreground/70 sm:flex-row">
           <span>{`© ${new Date().getFullYear()} ARCHIVIART`}</span>
-          <span>Cat. no. AV-0000 — All works catalogued</span>
+          <span>{tFooter.catalogued}</span>
         </div>
       </div>
     </footer>

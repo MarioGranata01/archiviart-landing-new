@@ -1,0 +1,193 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "team": "Team",
+    "requestAccess": "Richiedi accesso"
+  },
+  "cta": {
+    "badge": "Anteprima privata · Posti limitati",
+    "quote": "“Più che una gestione file — un ponte tra il passato analogico dell'arte e il suo futuro digitale.”",
+    "title": "Porta la tua collezione nel suo futuro digitale.",
+    "description": "Stiamo aprendo ARCHIVIART a una piccola cerchia di musei, archivi, fondazioni, curatori e ricercatori. Raccontaci il tuo patrimonio e ti riserveremo un posto.",
+    "button": "Richiedi accesso anticipato"
+  },
+  "footer": {
+    "description": "Digitalizzazione, conservazione e condivisione del patrimonio artistico e documentario. Creato in Italia per musei, archivi, curatori e ricercatori di tutto il mondo.",
+    "catalog": "Cat. no. AV-0000 — Tutte le opere catalogate"
+  },
+  "hero": {
+    "badge": "Ora in anteprima privata per le istituzioni culturali",
+    "titlePrefix": "Il passato analogico dell'arte, con un",
+    "titleHighlight": "futuro digitale.",
+    "description": "ARCHIVIART digitalizza, conserva e organizza il fragile patrimonio artistico e documentario — archivi storici, opere d'arte e cataloghi cartacei — in un archivio sicuro e consultabile progettato per durare decenni.",
+    "ctaButton": "Richiedi accesso anticipato",
+    "secondaryButton": "Leggi il nostro manifesto",
+    "artworkTitle": "Senza titolo (Campo Ocra)",
+    "artworkDetails": "Olio su tela · 1987",
+    "status": "Digitalizzato"
+  },
+  "marqueeTerms": [
+    "Archivi storici",
+    "Lettere autografe",
+    "Diari d'artista",
+    "Fotografie d'epoca",
+    "Cataloghi cartacei",
+    "Registri di inventario",
+    "Provenienza",
+    "Bozze e schizzi",
+    "Collezioni",
+    "Prestiti per mostre"
+  ],
+  "features": {
+    "sectionLabel": "Il progetto",
+    "titlePrefix": "Il patrimonio è fragile. La",
+    "titleHighlight": "memoria",
+    "titleSuffix": "non dovrebbe esserlo.",
+    "paragraph1": "La storia dell'arte vive ancora in cartelle polverose, diari d'artista, lettere autografe, fotografie d'epoca e registri di inventario — materiale che si deteriora con il tempo, l'ambiente e gli incidenti, ed è quasi impossibile da cercare.",
+    "paragraph2": "ARCHIVIART trasforma questo archivio vasto e frammentato in un ecosistema digitale vivente, sicuro e interconnesso.",
+    "pillars": [
+      {
+        "index": "I",
+        "title": "Digitalizza e conserva",
+        "body": "Trasforma fragili documenti cartacei e storici in un archivio digitale sicuro e duraturo — conservazione strutturata progettata affinché i file non vengano mai corrotti o resi obsoleti."
+      },
+      {
+        "index": "II",
+        "title": "Organizza e indicizza",
+        "body": "Trova informazioni complesse in pochi secondi. Il riconoscimento ottico dei caratteri e l'intelligenza artificiale trasformano lettere manoscritte e pagine dattiloscritte in testo completamente ricercabile."
+      },
+      {
+        "index": "III",
+        "title": "Promuovi il valore culturale",
+        "body": "Permetti a musei, archivi e organizzazioni culturali di gestire e condividere il proprio patrimonio artistico in modo organizzato, accessibile e protetto."
+      }
+    ]
+  },
+  "audience": {
+    "sectionLabel": "A chi è rivolto",
+    "titlePrefix": "Creato per chiunque",
+    "titleHighlight": "mantenga viva l'arte.",
+    "items": [
+      {
+        "title": "Storici dell'arte e ricercatori",
+        "body": "Consulta fonti primarie, lettere e schizzi all'istante, senza viaggiare negli archivi di tutto il mondo."
+      },
+      {
+        "title": "Curatori di musei e gallerie",
+        "body": "Catalogare opere d'arte, tracciarne i movimenti e gestire i prestiti per le mostre da un unico posto."
+      },
+      {
+        "title": "Archivisti e istituzioni culturali",
+        "body": "Supervisiona una conservazione conforme alle normative con potenti strumenti per organizzare flussi di documenti complessi."
+      },
+      {
+        "title": "Il pubblico e gli appassionati",
+        "body": "Esplora collezioni digitalizzate attraverso un'interfaccia intuitiva e ricca di contenuti multimediali pensata per la scoperta."
+      }
+    ]
+  },
+  "recordPreview": {
+    "sectionLabel": "Dentro l'archivio",
+    "titlePrefix": "Dalla carta al record",
+    "titleHighlight": "ricercabile.",
+    "description": "Carica una vecchia lettera manoscritta o un documento dattiloscritto e ARCHIVIART estrae il testo, lo arricchisce con metadati culturali e lo protegge dietro un'autenticazione sicura e centralizzata.",
+    "capabilities": [
+      {
+        "title": "Conservazione digitale",
+        "body": "Conservazione strutturata a lungo termine — ben oltre il semplice salvataggio dei file."
+      },
+      {
+        "title": "OCR e indicizzazione intelligente",
+        "body": "Cerca il nome di un artista e recupera ogni lettera che lo menziona."
+      },
+      {
+        "title": "Metadati specifici per l'arte",
+        "body": "Autore, datazione, tecnica, provenienza, posizione e stato di conservazione."
+      },
+      {
+        "title": "Controllo accessi multilivello",
+        "body": "Ricercatori, curatori e amministratori vedono ciascuno esattamente ciò che dovrebbero."
+      }
+    ],
+    "recordHeader": "Record · AV-1912-117",
+    "recordTitle": "Lettera a un Gallerista",
+    "metadata": [
+      ["Autore", "Sconosciuto (attrib. scuola ferrarese)"],
+      ["Datazione", "c. 1912"],
+      ["Tecnica", "Inchiostro su carta vergata"],
+      ["Provenienza", "Collezione privata, Milano"],
+      ["Posizione", "Cassetto 14 · Cartella C"],
+      ["Conservazione", "Discreto — fioriture sui margini"]
+    ],
+    "ocrLabel": "Estratto OCR",
+    "ocrQuote": "“...le tele arriveranno a Venezia prima dell'inaugurazione. Mi fido di voi come farei con la mia stessa memoria...”",
+    "ocrConfidence": "98% di confidenza · 3 documenti collegati"
+  },
+  "aboutIntro": {
+    "titlePrefix": "Un ponte tra il passato dell'arte e il suo",
+    "titleHighlight": "futuro digitale.",
+    "description": "ARCHIVIART nasce per dare nuova vita alla cultura garantendone al contempo la conservazione — affinché nessuna lettera, schizzo o catalogo vada mai perduto nel tempo."
+  },
+  "story": {
+      "sectionLabel": "La nostra missione",
+      "title": "Chi siamo",
+      "p1": "Siamo un piccolo team di amanti dell'arte, designer e ingegneri con sede in Italia — un paese in cui quasi ogni strada è un archivio. ARCHIVIART è nata per affrontare una grande sfida: la fragilità, la frammentazione e la difficile accessibilità del patrimonio artistico e documentario analogico.",
+      "riskTitle": "Il rischio",
+      "riskBody": "La perdita fisica del patrimonio a causa del tempo, di fattori ambientali o eventi accidentali — aggravata dalla difficoltà pratica di individuare un singolo documento sepolto tra decenni di registri cartacei.",
+      "p2": "La nostra soluzione consiste nel trasformare questo archivio vasto e frammentato in un ecosistema digitale vivente, sicuro e interconnesso — salvaguardando la memoria storica e rendendola accessibile per l'uso odierno.",
+      "figcaption": "Fig. 1 — Decenni di patrimonio, un cassetto alla volta"
+  },
+  "goals": {
+      "sectionLabel": "I nostri obiettivi",
+      "titlePrefix": "Verso cosa stiamo",
+      "titleHighlight": "costruendo il futuro.",
+      "items": [
+        {
+          "title": "Digitalizza e conserva",
+          "body": "Trasforma documenti cartacei e storici fragili in un archivio digitale sicuro e di lunga durata, progettato per rimanere intatto e leggibile per decenni."
+        },
+        {
+          "title": "Organizza e indicizza",
+          "body": "Semplifica la ricerca di informazioni complesse attraverso strumenti di ricerca avanzati, riconoscimento ottico dei caratteri (OCR) e intelligenza artificiale."
+        },
+        {
+          "title": "Promuovi il valore culturale",
+          "body": "Permetti a istituzioni, organizzazioni culturali, musei e archivi di gestire e condividere il proprio patrimonio artistico in modo organizzato, accessibile e protetto."
+        }
+      ]
+    },
+    "teamIntro": {
+    "titlePrefix": "Tre fondatori, una",
+    "titleHighlight": "collezione.",
+    "description": "L'istinto di un curatore, il rigore di un ingegnere e l'occhio di un designer — catalogati insieme sotto un unico numero di accessione."
+  },
+  "team": {
+    "members": [
+      {
+        "id": "AV-M-01",
+        "name": "Rodolfo",
+        "role": "Curatore e Co-fondatore",
+        "bio": "Esperto di beni culturali e gestione di archivi storici, dedicato a preservare l'autenticità di ogni documento.",
+        "focus": ["Archivi storici", "Beni culturali", "Provenienza"],
+        "quote": "La memoria dell'arte merita la stessa cura con cui è stata creata."
+      },
+      {
+        "id": "AV-M-02",
+        "name": "Mario",
+        "role": "Ingegnere e Co-fondatore",
+        "bio": "Specializzato in architetture software scalabili e sistemi sicuri per la gestione e l'indicizzazione dei dati.",
+        "focus": ["Ingegneria dei sistemi", "Sicurezza", "OCR & AI"],
+        "quote": "Un codice robusto è il miglior custode della storia digitale."
+      },
+      {
+        "id": "AV-M-03",
+        "name": "Rino",
+        "role": "Designer e Co-fondatore",
+        "bio": "Curatore dell'esperienza utente e dell'identità visiva, focalizzato sulla chiarezza e l'accessibilità.",
+        "focus": ["Design di interfaccia", "UX/UI", "Identità visiva"],
+        "quote": "Il design ideale scompare per lasciare spazio solo alla bellezza dell'archivio."
+      }
+    ]
+  }
+} 
